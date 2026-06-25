@@ -1,0 +1,10 @@
+# 도서 리뷰 인사이트 앱 실행에 필요한 파이썬 패키지
+# 로컬:  pip install -r requirements.txt
+# Streamlit Community Cloud 는 이 파일을 자동으로 설치합니다.
+streamlit==1.50.0
+pandas==2.3.3
+numpy==2.0.2
+tensorflow-cpu==2.20.0   # 모델 로드(keras 3). GPU 불필요 → cpu 버전
+konlpy==0.6.0            # Okt 형태소 분석 (Java/JDK 필요 → packages.txt 참고)
+JPype1==1.7.1
+joblib>=1.3
